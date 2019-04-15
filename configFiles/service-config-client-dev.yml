@@ -1,5 +1,5 @@
 hello: hello springcloud config!
 yb:
-  name：于博
+  name: 于博
   age: 24
   sex: 男
