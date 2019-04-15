@@ -1,4 +1,4 @@
-hello: hello springcloud config!
+hello: hello springcloud config!RefreshScope
 yb:
   name: 于博
   age: 24
