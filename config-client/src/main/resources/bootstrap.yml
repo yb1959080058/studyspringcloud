@@ -8,3 +8,10 @@ spring:
       label: master
       profile: dev
       uri: http://localhost:9903/
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health, info, refresh
