@@ -1,5 +1,9 @@
 server:
-  port: 9904
+  port: 9905
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9901/eureka/
 spring:
   application:
     name: service-config-client
@@ -7,11 +11,12 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:9903/
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: health, info, refresh
+      uri: http://localhost:9904/
+#      discovery:
+#        enabled: true
+#        serviceId: service-config-server
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health, info, refresh
