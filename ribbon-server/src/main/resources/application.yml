@@ -1,5 +1,5 @@
 server:
-  port: 9903
+  port: 9906
 
 eureka:
   client:
@@ -8,6 +8,4 @@ eureka:
 
 spring:
   application:
-    name: service-eureka-client
-
-
+    name: service-ribbon-server
