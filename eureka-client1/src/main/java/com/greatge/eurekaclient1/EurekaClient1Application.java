@@ -19,7 +19,8 @@ public class EurekaClient1Application {
     @Value("${server.port}")
     String port;
     @RequestMapping("/")
-    public String home() {
+    public String home() throws InterruptedException {
+        Thread.sleep(3000);//测试断路器
         return "hello world from port " + port;
     }
 }
