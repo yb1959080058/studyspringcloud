@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @EnableEurekaClient
 @RestController
-//@RefreshScope
+@RefreshScope
 @SpringBootApplication
 public class ConfigClientApplication {
 
