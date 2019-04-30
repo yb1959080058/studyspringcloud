@@ -13,5 +13,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yb1959080058/uaps.git
+          uri: https://github.com/yb1959080058/uaps
           searchPaths: configFiles

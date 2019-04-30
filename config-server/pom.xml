@@ -14,4 +14,11 @@
     <packaging>jar</packaging>
     <name>config-server</name>
     <description>Demo Config Server</description>
+    <dependencies>
+        <!--config server-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+    </dependencies>
 </project>

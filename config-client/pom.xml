@@ -13,4 +13,11 @@
     <name>config-client</name>
     <packaging>jar</packaging>
     <description>Demo Spring Config Client</description>
+    <dependencies>
+        <!--config client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+    </dependencies>
 </project>
