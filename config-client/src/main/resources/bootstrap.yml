@@ -15,8 +15,8 @@ spring:
 #      discovery:
 #        enabled: true
 #        serviceId: service-config-server
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: health, info, refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, refresh
