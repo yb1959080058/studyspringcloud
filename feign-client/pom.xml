@@ -23,10 +23,10 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.netflix.feign</groupId>
             <artifactId>feign-httpclient</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.netflix.hystrix</groupId>
             <artifactId>hystrix-javanica</artifactId>

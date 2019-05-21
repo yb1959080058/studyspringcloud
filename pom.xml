@@ -2,9 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.greatge.common</groupId>
+    <groupId>com.greatge</groupId>
     <artifactId>uaps</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
     <name>uaps</name>
     <description>Demo project for Spring Boot</description>
 
@@ -22,7 +23,6 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>ribbon-server</module>
-        <module>feign-client</module>
         <module>feign-client</module>
         <module>turbine-server</module>
         <module>zuul-server</module>
