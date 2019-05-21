@@ -25,6 +25,7 @@
         <module>feign-client</module>
         <module>feign-client</module>
         <module>turbine-server</module>
+        <module>zuul-server</module>
     </modules>
 
 
